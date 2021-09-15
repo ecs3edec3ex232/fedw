@@ -1,5 +1,5 @@
 canvas = document.getElementById("myCanvas");
-ctx = canavs.getContext("2d"); 
+ctx = canvas.getContext("2d"); 
 
 g_c_w=100;
 g_c_h=75;
