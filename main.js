@@ -69,18 +69,20 @@ function up()
 	if( g_c_y >= 0){
 		g_c_y = g_c_y - 10;
 		console.log("When up arrow is pressed, x = " + g_c_x +" | y =" + g_c_y);
-		uploadgreencar();
 		uploadBackground();
+		uploadgreencar();
+		
 	}
 }
 
 function down()
 {
-	if( g_c_y <= 800){
+	if( g_c_y <= 300){
 		g_c_y = g_c_y + 10;
 		console.log("When down arrow is pressed, x = " + g_c_x +" | y =" + g_c_y);
-		uploadgreencar();
 		uploadBackground();
+		uploadgreencar();
+		
 	}
 }
 
@@ -89,17 +91,19 @@ function left()
 	if( g_c_x >= 0){
 		g_c_x = g_c_x - 10;
 		console.log("When left arrow is pressed, x = " + g_c_x +" | y =" + g_c_y);
-		uploadgreencar();
 		uploadBackground();
+		uploadgreencar();
+	
 	}
 }
 
 function right()
 {
-	if( g_c_x <= 400){
+	if( g_c_x <= 700){
 		g_c_x = g_c_x + 10;
 		console.log("When right arrow is pressed, x = " + g_c_x +" | y =" + g_c_y);
-		uploadgreencar();
 		uploadBackground();
+		uploadgreencar();
+		
 	}
 }
